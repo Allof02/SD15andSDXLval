@@ -1,0 +1,7 @@
+python sdxl_coco_gene.py --mode single --csv_path MS-COCO_val2014_30k_captions.csv --resolution 512 --steps 50 --scheduler dpmpp --max_samples 3500 --batch_size 24 --output_dir generated_image_sdxl_512_sc1024_3_5k --dtype fp16 --guidance 6.0
+
+    (Size conditioning enabled: original_size=(1024, 1024), target_size=(512, 512), crops_coords_top_left=(0, 0))
+
+    python sdxl_coco_gene.py --mode single --csv_path MS-COCO_val2014_30k_captions.csv --resolution 512 --steps 50 --scheduler dpmpp  --dtype fp16 --guidance 5.0 --output_dir D:\VSC_research\generative-models\sdxl\test_single_sdxl
+
+    (Size conditioning enabled: original_size=(1024, 1024), target_size=(512, 512), crops_coords_top_left=(0, 0))
